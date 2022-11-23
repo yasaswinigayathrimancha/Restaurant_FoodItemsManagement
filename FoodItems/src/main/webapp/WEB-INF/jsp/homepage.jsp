@@ -4,7 +4,13 @@
 <%@ page import="com.example.fooditems.dao.FoodItem"%>
 <!DOCTYPE html>
 <html>
-	<style>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<title>Starting page</title>
+</head>
+
+<style>
 
 .btn-primary {
  
@@ -44,12 +50,7 @@ border-spacing: 10px;
 }
 
 </style>
-<head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-<title>Starting page</title>
-</head>
+
 <body class="container">
 <h2  class="text-center" style="background-color:powderblue;" >Le Gourmet Food Center</h2><br><br>
 
