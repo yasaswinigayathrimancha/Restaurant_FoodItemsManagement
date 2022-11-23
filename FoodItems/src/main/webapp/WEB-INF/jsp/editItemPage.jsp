@@ -45,7 +45,7 @@
 								 Update Availability<input type="text" class="form-control"
 									name="availability" value=${foodItem.getAvailability() }>
 							</div>
-                             <br>
+                                                                <br>
 							<div>
 								<button type="submit" value="submit" class="Rounded btn-dark">Update</button>
 							</div>
