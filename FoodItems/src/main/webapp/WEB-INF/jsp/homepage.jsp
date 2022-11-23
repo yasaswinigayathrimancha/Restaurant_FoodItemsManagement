@@ -4,11 +4,51 @@
 <%@ page import="com.example.fooditems.dao.FoodItem"%>
 <!DOCTYPE html>
 <html>
+	<style>
+
+.btn-primary {
+ 
+  color: white;
+ 
+  background-color: navajowhite;
+ 
+  border-radius: 35px;
+ 
+  border: 2px solid rgba(0, 70, 147, 0.75);
+ 
+}
+table{
+border: 6px double darkslategray;
+text-align: center;
+font-size: 20px;
+background-color: pink;
+padding:0;
+width: auto;
+margin: 0;
+
+}
+th{
+border: 5px solid midnightblue;
+background-color: paleturquoise;
+padding:0;
+}
+td{
+border: 5px solid purple;
+background-color: khaki;
+padding:0;
+
+}
+#space{
+border-collapse: separate;
+border-spacing: 10px;
+}
+
+</style>
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-<title>Home Page</title>
+<title>Starting page</title>
 </head>
 <body class="container">
 <h2  class="text-center" style="background-color:powderblue;" >Le Gourmet Food Center</h2><br><br>
@@ -55,44 +95,5 @@
 	</div>
 </body>
 
-<style>
 
-.btn-primary {
- 
-  color: white;
- 
-  background-color: navajowhite;
- 
-  border-radius: 35px;
- 
-  border: 2px solid rgba(0, 70, 147, 0.75);
- 
-}
-table{
-border: 6px double darkslategray;
-text-align: center;
-font-size: 20px;
-background-color: pink;
-padding:0;
-width: auto;
-margin: 0;
-
-}
-th{
-border: 5px solid midnightblue;
-background-color: paleturquoise;
-padding:0;
-}
-td{
-border: 5px solid purple;
-background-color: khaki;
-padding:0;
-
-}
-#space{
-border-collapse: separate;
-border-spacing: 10px;
-}
-
-</style>
 </html>
